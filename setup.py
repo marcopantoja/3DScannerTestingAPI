@@ -12,7 +12,6 @@ setup(
     version=dt.now().strftime("%m.%d.%Y.%H"),
     description='for controlling zaber-motion devices',
     author='marco pantoja',
-    author_email='marco.pantoja1@hp.com',
     python_requires='>3.8',
     install_requires=['zaber-motion','pythonnet','pyserial','pyautogui'],
     packages=find_packages('.')
