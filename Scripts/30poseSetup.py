@@ -13,8 +13,8 @@ duration = 1000  # Set Duration To 1000 ms == 1 second
 
 Test = 'MoritexDagoba'
 trials = 3
-directory = "C:/Users/Opus/Desktop/MarcoGithub/calibrations"
-posefile = "C:/Users/Opus/Desktop/MarcoGithub/calibrations/Poses/Markus30Pose.csv"
+directory = "Desktop/MarcoGithub/calibrations"
+posefile = "Desktop/MarcoGithub/calibrations/Poses/Pose.csv"
 poselist = Poses.from_file(posefile)[:15]
 if __name__ == "__main__":
     print("Script started")
